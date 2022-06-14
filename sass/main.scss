@@ -462,40 +462,40 @@ body {
             height: 150px;
             background-color: $main;
 
-            &--second{
+            &--second {
                 margin: 0;
             }
         }
 
-        &-box{
+        &-box {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             padding: 0 0.5em;
 
-            p{
+            p {
                 font-size: 2.2rem;
             }
 
-            &--second{
+            &--second {
                 width: 90%;
             }
         }
 
-        &-area{
+        &-area {
             position: relative;
             width: 200px;
             border-radius: 10px;
             font-size: 1.8rem;
 
-            &--second{
+            &--second {
                 position: absolute;
                 top: 0;
                 left: 0;
                 width: 100%;
                 height: 400px;
             }
-            
+
         }
     }
 
@@ -607,8 +607,9 @@ body {
     }
 
 }
-.contact{
-    &__boxes{
+
+.contact {
+    &__boxes {
         flex-direction: row;
         justify-content: space-around;
     }
